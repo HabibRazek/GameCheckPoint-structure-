@@ -1,0 +1,15 @@
+.carouselStyle{
+    margin-top: 100px;
+}
+
+/**
+*!footer
+**/
+.ButtonsGame{
+    text-decoration: none;
+    color: aliceblue;
+}
+.ButtonsGame:hover{
+    color: aliceblue;
+    
+}
