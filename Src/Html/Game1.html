@@ -4,9 +4,187 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Css Link -->
+    <link rel="stylesheet" href="/Src/Css/Game1.css">
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Memory Game</title>
 </head>
 <body>
+
+<div class="control-bouttons">
+    <span>
+        Start Game
+    </span>
+</div>
+
+    <div class="info-container">
+        <div class="name">
+            Hello : <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries : <span>0</span>
+        </div>
+    </div>
+
+    <div class="memory-game-blocks">
+        <div class="game-block" data-anime="card1">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card1.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="card1">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card1.png" alt="">
+            </div>
+        </div>
+        <!--  -->
+        <div class="game-block" data-anime="card2">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card2.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="card2">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card2.png" alt="">
+            </div>
+        </div>
+        <!--  -->
+        <div class="game-block" data-anime="card3">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card3.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="card3">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card3.png" alt="">
+            </div>
+        </div>
+        <!--  -->
+        <div class="game-block" data-anime="card4">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card4.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="card4">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card4.png" alt="">
+            </div>
+        </div>
+        <!--  -->
+        <div class="game-block" data-anime="card5">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card5.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="card5">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card5.png" alt="">
+            </div>
+        </div>
+        <!--  -->
+        <div class="game-block" data-anime="card6">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card6.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="card6">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card6.png" alt="">
+            </div>
+        </div>
+        <!--  -->
+        <div class="game-block" data-anime="card7">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card7.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="card7">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card7.png" alt="">
+            </div>
+        </div>
+        <!--  -->
+        <div class="game-block" data-anime="card8">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card8.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="card8">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card8.png" alt="">
+            </div>
+        </div>
+        <!--  -->
+        <div class="game-block" data-anime="card9">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card9.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="card9">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card9.png" alt="">
+            </div>
+        </div>
+        <!--  -->
+        <div class="game-block" data-anime="card 10">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card 10.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-anime="card 10">
+            <div class="face front">
+            </div>
+            <div class="face back">
+                <img src="/Img/cards/card 10.png" alt="">
+            </div>
+        </div>
+
+        <audio id="success" src="/audio/Success sound effect (copyright free).mp4" preload="auto"></audio>
+        <audio id="fail" src="/audio/Fail sound effect #1.mp4" preload="auto"></audio>
+
+    </div>
+    <script src="/Src/Js/MemoryGame.js"></script>
     
 </body>
 </html>
